@@ -1,0 +1,37 @@
+
+:root {
+  /* COLORS */
+    --background-color-main: #ffffff;
+    --accent-color-main: #8291FF;
+    --text-color-dull: #C6C6C6;
+    --text-color-regular: #575757;
+    --text-color-bright: #000000;
+    --text-color-opposite: #ffffff;
+
+    /* FONTS */
+    --font-size-regular: 24px;
+    --font-size-regular-important: 32px;
+    --font-size-small: 24px;
+    --font-weight-bold: 700;
+
+    /* PADDINGS */
+    --margin-sm: 14px;
+    --margin-md: 32px;
+    --margin-ld: 64px;
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+  /* scrollbar fader */
+  ::-webkit-scrollbar-thumb {
+    background-color: white; 
+    border-radius: 4px; /
+  }
+  
+  /* scrollbar background */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }

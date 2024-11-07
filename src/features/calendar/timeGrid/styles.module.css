@@ -1,0 +1,31 @@
+.timeGrid {
+    display: grid;
+    grid-template-columns: 100px repeat(3, 1fr); /* Время (100px ширина) + 5 колонок для зон */
+    grid-auto-rows: minmax(50px, auto); /* Динамическая высота ячеек */
+    gap: 4px;
+    width: 100%;
+    background-color: #eee;
+  }
+  
+  .zoneHeader {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .timeSlot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    font-weight: bold;
+    color: #333;
+    grid-column: 1; 
+  }
+  
+  .zoneSlot {
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  

@@ -1,0 +1,28 @@
+.button {
+    background-color: transparent;
+    border-radius: 999px;
+    padding: 0px 0px;
+    
+}
+
+.buttonWrapper {
+    /* width: 9vw; */
+    gap: 0.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controlsWrapper {
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+.currentButton {
+    padding:2px;
+    background-color: var(--accent-color-main);
+    color: var(--text-color-opposite);
+}

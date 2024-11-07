@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button {
+    background-color: transparent;
+    border-radius: 999px;
+    padding: 0px 0px;
+}
+
+.buttonWrapper {
+    gap: 1.5vh;
+    display: flex;
+    flex-direction: column;
+}
